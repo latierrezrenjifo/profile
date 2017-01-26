@@ -1,1 +1,119 @@
+body {
+margin: 0;
+background: #abbaab; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #abbaab , #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #abbaab , #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+         
+}
+
+.round {
+  height: 51px;
+  width: 68px;
+  line-height: 50px;
+  border-radius: 50px;
+ background-image:url('https://lh3.googleusercontent.com/i51-SFcf_z-L1_CsywacMsLVJ4ca2q8AJKs9ozNeC69uVL3stWT6_T0aqYcBUNWp_8lCoE6vW6l4nQ=w5120-h3200-no');
+ background-repeat:no-repeat;
+ background-size: contain;
+ 
+  display: inline-block;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  font-family:'Open Sans', sans-serif;
+  float: right;
+}
+
+li a,.special {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; 
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: LightGrey;
+}
+
+
+h1 {
+  color: #000000;
+  font-family: 'Helvetic Neue', sans-serif;
+  font-size: 275px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height:1;
+  text-align: center;
+}
+
+h2,p {
+  color: #222222;
+  font-family:'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: auto;
+  margin: 0 0 100px;
+  text-align: center;
+  letter-spacing: auto;
+}
+
+.headtwo {
+ font-size: 50px;
+}
+
+.parone {
+  font-size: 20px;
+}
+
+
+
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.subhead {
+  color:#000000;
+  font-family: 'Trebuchet MS', sans-serif;
+  display: inline-block;
+  font-size: 59px;
+  text-align: justify;
+  line-height: 50px;
+  margin: -10px 10px -10px -10px;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin: 10px 10px 50px 20px;
+  display: inline-block;
+}
+
+img {
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+}
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+
+
+
+  
 
