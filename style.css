@@ -4,7 +4,7 @@ article {
   top: 50%;
   left: 50%;
   margin-top: -25px;
-  margin-left: 425px;
+  margin-left: 415px;
 }
 
 
@@ -96,7 +96,7 @@ h2,p {
 
 .headtwo {
  text-align: center;
- font-size: 50px;
+ font-size: 80px;
  font-family: 'Caveat', sans-serif;
  margin-top: -100px;
 }
