@@ -1,6 +1,18 @@
+article {
+  width: 530px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left:250px;
+}
+
+
 .main { 
 background: #288ad2;
+font-family: 'Indie Flower', serif;
 }
+
 body {
 margin: 0;
 background: white; /* fallback for old browsers */
@@ -35,7 +47,7 @@ ul {
 }
 
 li {
-  font-family:'Open Sans', sans-serif;
+  font-family:'Ubuntu', sans-serif;
   float: right;
 }
 
@@ -55,7 +67,6 @@ li a:hover {
 
 h1 {
   color: White;
-  font-family: 'Helvetic Neue', sans-serif;
   font-size: 275px;
   font-weight: bold;
   letter-spacing: -1px;
@@ -67,8 +78,11 @@ h2 {
   color: #288ad2;
 }
 
+
+
 p { 
 color: #222222}
+
 h2,p {
   
   font-family:'Open Sans', sans-serif;
@@ -76,12 +90,18 @@ h2,p {
   font-weight: 300;
   line-height: auto;
   margin: 0 0 100px;
-  text-align: center;
+  text-align: justify;
   letter-spacing: auto;
 }
 
 .headtwo {
+ text-align: center;
  font-size: 50px;
+ font-family: 'Caveat', sans-serif;
+}
+
+#about, #education {
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .parone {
@@ -121,7 +141,5 @@ img:hover {
     opacity: 1.0;
     filter: alpha(opacity=100); 
 }
-
-
   
 
