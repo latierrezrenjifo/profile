@@ -4,7 +4,7 @@ article {
   top: 50%;
   left: 50%;
   margin-top: -25px;
-  margin-left: 475px;
+  margin-left: 425px;
 }
 
 
@@ -98,6 +98,7 @@ h2,p {
  text-align: center;
  font-size: 50px;
  font-family: 'Caveat', sans-serif;
+ margin-top: -100px;
 }
 
 #about, #education {
