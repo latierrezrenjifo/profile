@@ -1,8 +1,11 @@
+.main { 
+background: #288ad2;
+}
 body {
 margin: 0;
-background: #abbaab; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #abbaab , #ffffff); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #abbaab , #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: white; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, white , #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, white , #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
          
 }
 
@@ -38,7 +41,7 @@ li {
 
 li a,.special {
   display: block;
-  color: #000000;
+  color: #288ad2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none; 
@@ -51,7 +54,7 @@ li a:hover {
 
 
 h1 {
-  color: #000000;
+  color: White;
   font-family: 'Helvetic Neue', sans-serif;
   font-size: 275px;
   font-weight: bold;
@@ -60,8 +63,14 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  color: #288ad2;
+}
+
+p { 
+color: #222222}
 h2,p {
-  color: #222222;
+  
   font-family:'Open Sans', sans-serif;
   font-size: 30px;
   font-weight: 300;
@@ -87,7 +96,7 @@ h2,p {
 }
 
 .subhead {
-  color:#000000;
+  color:#288ad2;
   font-family: 'Trebuchet MS', sans-serif;
   display: inline-block;
   font-size: 59px;
@@ -112,7 +121,6 @@ img:hover {
     opacity: 1.0;
     filter: alpha(opacity=100); 
 }
-
 
 
   
